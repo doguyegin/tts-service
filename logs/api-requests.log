@@ -1,0 +1,79 @@
+2025-07-07 10:17:52,232 [API] [REQUEST-2ea7bb1b-85f0-44c6-a5f0-7aca3767e994] Audio synthesis request started
+2025-07-07 10:17:52,232 [API] [REQUEST-2ea7bb1b-85f0-44c6-a5f0-7aca3767e994] Processing text: 'merhaba dünya'
+2025-07-07 10:17:52,232 [API] [REQUEST-2ea7bb1b-85f0-44c6-a5f0-7aca3767e994] Parsed 2 words: [merhaba, dünya]
+2025-07-07 10:17:52,697 [API] [REQUEST-2ea7bb1b-85f0-44c6-a5f0-7aca3767e994] Found 0 matching audio files
+2025-07-07 10:17:52,698 [API] [REQUEST-2ea7bb1b-85f0-44c6-a5f0-7aca3767e994] No audio files found for input: 'merhaba dünya'
+2025-07-07 10:21:28,432 [API] [REQUEST-33918ade-7981-42ee-aa48-c553e6fbf9fc] Audio synthesis request started
+2025-07-07 10:21:28,442 [API] [REQUEST-33918ade-7981-42ee-aa48-c553e6fbf9fc] Processing text: 'merhaba dünya'
+2025-07-07 10:21:28,446 [API] [REQUEST-33918ade-7981-42ee-aa48-c553e6fbf9fc] Parsed 2 words: [merhaba, dünya]
+2025-07-07 10:21:28,521 [API] [REQUEST-33918ade-7981-42ee-aa48-c553e6fbf9fc] Found 0 matching audio files
+2025-07-07 10:21:28,521 [API] [REQUEST-33918ade-7981-42ee-aa48-c553e6fbf9fc] No audio files found for input: 'merhaba dünya'
+2025-07-07 10:25:19,073 [API] [REQUEST-594a61ed-7d70-4151-9952-e4ac44ee4bed] Audio synthesis request started
+2025-07-07 10:25:19,074 [API] [REQUEST-594a61ed-7d70-4151-9952-e4ac44ee4bed] Processing text: 'merhaba dünya'
+2025-07-07 10:25:19,075 [API] [REQUEST-594a61ed-7d70-4151-9952-e4ac44ee4bed] Parsed 2 words: [merhaba, dünya]
+2025-07-07 10:25:19,360 [API] [REQUEST-594a61ed-7d70-4151-9952-e4ac44ee4bed] Found 0 matching audio files
+2025-07-07 10:25:19,361 [API] [REQUEST-594a61ed-7d70-4151-9952-e4ac44ee4bed] No audio files found for input: 'merhaba dünya'
+2025-07-07 10:27:12,848 [API] [REQUEST-a571d9dc-062a-4a93-836c-da2e69bdc7f7] Audio synthesis request started
+2025-07-07 10:27:12,849 [API] [REQUEST-a571d9dc-062a-4a93-836c-da2e69bdc7f7] Processing text: 'merhaba dünya'
+2025-07-07 10:27:12,849 [API] [REQUEST-a571d9dc-062a-4a93-836c-da2e69bdc7f7] Parsed 2 words: [merhaba, dünya]
+2025-07-07 10:27:12,982 [API] [REQUEST-a571d9dc-062a-4a93-836c-da2e69bdc7f7] Found 2 matching audio files
+2025-07-07 10:27:13,162 [API] [REQUEST-a571d9dc-062a-4a93-836c-da2e69bdc7f7] Audio files merged successfully: /Users/doguyegin/Documents/GitHub/tts-service/output/merged.wav
+2025-07-07 10:27:13,163 [API] [REQUEST-a571d9dc-062a-4a93-836c-da2e69bdc7f7] Request completed successfully in 315ms
+2025-07-07 10:27:58,048 [API] [REQUEST-e79722b0-abed-450d-adcf-f89dda2fdece] Audio synthesis request started
+2025-07-07 10:27:58,049 [API] [REQUEST-e79722b0-abed-450d-adcf-f89dda2fdece] Processing text: 'merhaba'
+2025-07-07 10:27:58,049 [API] [REQUEST-e79722b0-abed-450d-adcf-f89dda2fdece] Parsed 1 words: [merhaba]
+2025-07-07 10:27:58,072 [API] [REQUEST-e79722b0-abed-450d-adcf-f89dda2fdece] Found 1 matching audio files
+2025-07-07 10:29:18,010 [API] [REQUEST-0073be64-c95f-4b70-bff6-4e60fe8ffaae] Audio synthesis request started
+2025-07-07 10:29:18,012 [API] [REQUEST-0073be64-c95f-4b70-bff6-4e60fe8ffaae] Empty or null text input received
+2025-07-07 10:31:02,717 [API] [REQUEST-e79722b0-abed-450d-adcf-f89dda2fdece] IO Error during audio processing: ffmpeg process failed with exit code: 130 (duration: 184669ms)
+java.io.IOException: ffmpeg process failed with exit code: 130
+	at com.example.audioengine.service.AudioMergeService.mergeAudioFiles(AudioMergeService.java:58)
+	at com.example.audioengine.controller.AudioController.speak(AudioController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1447)

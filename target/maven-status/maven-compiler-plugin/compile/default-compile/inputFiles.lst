@@ -1,0 +1,7 @@
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/controller/AudioController.java
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/model/AudioFile.java
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/service/AudioMatcherService.java
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/service/TextParserService.java
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/service/AudioMergeService.java
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/repository/AudioFileRepository.java
+/Users/doguyegin/Documents/GitHub/tts-service/src/main/java/com/example/audioengine/AudioEngineApplication.java
